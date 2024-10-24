@@ -21,7 +21,7 @@ let pages = [
   { url: "routes/+page.svelte", title: "Home" },
   { url: "routes/projects/+page.svelte", title: "Projects" },
   { url: "routes/contact/+page.svelte", title: "Contact" },
-  { url: "routes/resume/+page.svelte", title: "Resume" },
+  { url: "routes/cv/+page.svelte", title: "Resume" },
   { url: "https://github.com/filinanurcahya0000/DSC209R-Portfolio", title: "Github" },
 ];
 
