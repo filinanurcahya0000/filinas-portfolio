@@ -1,8 +1,8 @@
       
-   <svelte:head>
+<svelte:head>
     <title>This is my projects!</title>
   </svelte:head>
-  
+
    <h1>This is my projects page!</h1> 
 
     <div class="projects">
