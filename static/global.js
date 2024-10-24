@@ -18,10 +18,10 @@ if (currentLink) {
 
 // Step 3: Automatic navigation menu
 let pages = [
-  { url: "", title: "Home" },
-  { url: "projects/index.html", title: "Projects" },
-  { url: "contact/index.html", title: "Contact" },
-  { url: "resume/index.html", title: "Resume" },
+  { url: "routes/+page.svelte", title: "Home" },
+  { url: "routes/projects/+page.svelte", title: "Projects" },
+  { url: "routes/contact/+page.svelte", title: "Contact" },
+  { url: "routes/resume/+page.svelte", title: "Resume" },
   { url: "https://github.com/filinanurcahya0000/DSC209R-Portfolio", title: "Github" },
 ];
 
