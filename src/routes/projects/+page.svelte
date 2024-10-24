@@ -1,8 +1,9 @@
       
 <svelte:head>
     <title>This is my projects!</title>
-  </svelte:head>
-
+</svelte:head>
+<script> import projects from '$lib/projects.json' ;</script>
+<pre>{ JSON.stringify(projects, null, "\t") }</pre>
    <h1>This is my projects page!</h1> 
 
     <div class="projects">

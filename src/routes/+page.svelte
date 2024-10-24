@@ -1,8 +1,7 @@
 <svelte:head>
   <title>Highlight, this is my introduction page!</title>
 </svelte:head>
-<script> import projects from '$lib/projects.json' ;</script>
-<pre>{ JSON.stringify(projects, null, "\t") }</pre>
+
 <h1> Filina Nurcahya-Tjoa </h1>
 <p> Hi, current data science graduate student at UC San Diego and big data engineer at AT&T.</p>
 <img src="images/IMG_1638copy.jpg" alt="This is my favorite mushroom!" height="1000" width="1000">
