@@ -18,10 +18,10 @@ if (currentLink) {
 
 // Step 3: Automatic navigation menu
 let pages = [
-  { url: "routes/+page.svelte", title: "Home" },
-  { url: "routes/projects/+page.svelte", title: "Projects" },
-  { url: "routes/contact/+page.svelte", title: "Contact" },
-  { url: "routes/cv/+page.svelte", title: "Resume" },
+  { url: "https://filinanurcahya0000.github.io/filinas-portfolio/", title: "Home" },
+  { url: "https://filinanurcahya0000.github.io/filinas-portfolio/projects", title: "Projects" },
+  { url: "https://filinanurcahya0000.github.io/filinas-portfolio/contact", title: "Contact" },
+  { url: "https://filinanurcahya0000.github.io/filinas-portfolio/cv", title: "Resume" },
   { url: "https://github.com/filinanurcahya0000/DSC209R-Portfolio", title: "Github" },
 ];
 
