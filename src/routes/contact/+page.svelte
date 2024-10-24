@@ -1,4 +1,8 @@
        
+    <svelte:head>
+        <title>This is my contact page!</title>
+    </svelte:head>
+    
     <h1>This is my contact page!</h1>
     <form action="mailto:filinanurcahya0000@gmail.com" method="POST" enctype="text/plain">
         <label for="email">Your Email:</label>
