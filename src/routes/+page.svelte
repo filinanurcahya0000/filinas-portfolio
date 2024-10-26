@@ -3,7 +3,7 @@
 </svelte:head>
 <script>
     import projects from '$lib/projects.json';
-    </script>
+</script>
 
 <h1> Filina Nurcahya-Tjoa </h1>
 <p> Hi, current data science graduate student at UC San Diego and big data engineer at AT&T.</p>
