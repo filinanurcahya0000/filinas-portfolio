@@ -3,7 +3,7 @@
 </svelte:head>
 <script>
     import projects from '$lib/projects.json';
-    import project from '$lib/project.svelte';
+    import Project from '$lib/project.svelte';
 </script>
 
 <h1> Filina Nurcahya-Tjoa </h1>
