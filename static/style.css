@@ -2,7 +2,7 @@
 
 html {
   color-scheme: light dark; /* Allow the site to adapt to light or dark mode */
-}
+} */
 
 nav {
   --border-color: oklch(50% 10% 200 / 40%);
@@ -16,12 +16,6 @@ body {
   background-color: white; /* Default light mode background */
   color: black; /* Default light mode text color */
 }
-
-/* Dark mode styles
-body.dark-mode {
-  background-color: #121212; /* Dark mode background */
-  color: white; /* Dark mode text color */
-} */
 
 nav {
   border-bottom-width: 1px; 
