@@ -32,9 +32,9 @@
 </script>
 
 <h1>Filina Nurcahya-Tjoa</h1>
-<p>Hi, current data science graduate student at UC San Diego and big data engineer at AT&T.</p>
-<img src="images/IMG_1638copy.jpg" alt="This is my favorite mushroom!" height="1000" width="1000">
-<p>I currently live in Dallas, TX but what is the fun in that?</p>
+<p>Hi, I am a current data science graduate student at UC San Diego and a big data engineer at AT&T.</p>
+<img src="images/IMG_1638copy.jpg" alt="This is my favorite mushroom!" class="profile-image">
+<p>I currently live in Dallas, TX, but what is the fun in that?</p>
 
 <h2>GitHub Profile</h2>
 <p>Followers: {followers}</p>
@@ -50,6 +50,12 @@
 </div>
 
 <style>
+  .profile-image {
+    max-width: 100%; /* Make the profile image responsive */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+
   .projects.highlights {
     margin-top: 2rem;
     display: grid;
@@ -57,17 +63,17 @@
     gap: 1rem;
   }
 
-  /* Make images responsive and smaller */
   .projects.highlights img {
-    max-width: 100%;     /* Scale image to fit within the container */
-    height: auto;        /* Maintain aspect ratio */
-    object-fit: cover;   /* Crop image to fit within its bounds */
-    border-radius: 8px;  /* Optional: rounded corners */
+    width: 100%;        /* Ensure the image takes full width of the container */
+    height: auto;      /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image to fit within its bounds */
+    border-radius: 8px; /* Optional: rounded corners */
   }
 
   /* Adjust project container styling */
   .projects.highlights > div {
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for card effect */
+    overflow: hidden; /* Prevent overflow of contents */
   }
 </style>
