@@ -56,4 +56,18 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
   }
+
+  /* Make images responsive and smaller */
+  .projects.highlights img {
+    max-width: 100%;     /* Scale image to fit within the container */
+    height: auto;        /* Maintain aspect ratio */
+    object-fit: cover;   /* Crop image to fit within its bounds */
+    border-radius: 8px;  /* Optional: rounded corners */
+  }
+
+  /* Adjust project container styling */
+  .projects.highlights > div {
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for card effect */
+  }
 </style>
