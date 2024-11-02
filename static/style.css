@@ -17,6 +17,12 @@ body {
   color: black; /* Default light mode text color */
 }
 
+/* Dark mode styles
+body.dark-mode {
+  background-color: #121212; /* Dark mode background */
+  color: white; /* Dark mode text color */
+} */
+
 nav {
   border-bottom-width: 1px; 
   border-bottom-style: solid;

@@ -43,6 +43,7 @@
 <style>
     /* Add any additional styles for the theme switcher here */
     .dark-mode {
-        /* Your dark mode styles here */
+        background-color: #121212; /* Dark mode background */
+        color: white; /* Dark mode text color */
     }
 </style>
