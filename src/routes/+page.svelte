@@ -21,18 +21,6 @@ let profileData = {
     }),
   };
   
-  // To handle both real and mock data cases
-  async function getProfileData() {
-    if (profileData.ok) {
-      const data = await profileData.json();
-      console.log(data);
-      return data;
-    } else {
-      console.error("Error fetching profile data");
-      return null;
-    }
-  }
-  
   // Call the function to see output
   getProfileData();
 
