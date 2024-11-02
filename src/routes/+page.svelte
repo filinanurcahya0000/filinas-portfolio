@@ -11,6 +11,31 @@
 <img src="images/IMG_1638copy.jpg" alt="This is my favorite mushroom!" height="1000" width="1000">
 <p>I currently live in Dallas, TX but what is the fun in that? </p>
 
+let profileData = {
+    ok: true,
+    json: async () => ({
+      followers: 100,
+      following: 100,
+      public_repos: 100,
+      public_gists: 100,
+    }),
+  };
+  
+  // To handle both real and mock data cases
+  async function getProfileData() {
+    if (profileData.ok) {
+      const data = await profileData.json();
+      console.log(data);
+      return data;
+    } else {
+      console.error("Error fetching profile data");
+      return null;
+    }
+  }
+  
+  // Call the function to see output
+  getProfileData();
+
 <h2>Latest Projects</h2>
         <div class="projects highlights">
             {#each projects.slice(0, 3) as project}
