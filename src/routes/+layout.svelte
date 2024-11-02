@@ -1,8 +1,8 @@
 <script>
     import { page } from '$app/stores';
     import { base } from '$app/paths';
-    import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
-    import DataFetcher from '../components/DataFetcher.svelte';
+    import ThemeSwitcher from '$components/ThemeSwitcher.svelte';
+    import DataFetcher from '$components/DataFetcher.svelte';
   
     const pages = [
   { url: "https://filinanurcahya0000.github.io/filinas-portfolio/", title: "Home" },
