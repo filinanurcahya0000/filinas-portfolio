@@ -1,17 +1,19 @@
 [
 	{
-		"title": "Lorem ipsum dolor sit.",
-		"Year" : "2024",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"title": "Deceptive Visualization.",
+		"year" : "2024",
+		"image": "images/a2_deceptive-1.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
 	},
 	{
-		"title": "Architecto minima sed omnis?",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"title": "Earnest Visualizations",
+		"year" : "2024",
+		"image": "images/a2_earnest-1.png",
 		"description": "Est, reiciendis aspernatur debitis maxime et itaque animi sit quod quo, tempore incidunt tempora dignissimos exercitationem enim numquam quam quaerat optio laborum ut unde hic delectus laboriosam? Quasi, cupiditate corporis."
 	},
 	{
 		"title": "Asperiores rem repellendus doloremque.",
+		"year" : "2024",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
 	},
