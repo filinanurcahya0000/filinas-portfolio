@@ -44,8 +44,8 @@
 
 <h2>Latest Projects</h2>
 <div class="projects highlights">
-  {#each latestProjects as project}
-    <Project {project} />
+  {#each projects.slice(0, 3) as project}
+    <Project data={project} hLevel={3} />
   {/each}
 </div>
 
@@ -53,7 +53,29 @@
   .projects.highlights {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Use 150px for smaller cards */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Smaller minimum width */
     gap: 1rem; /* Space between project cards */
+  }
+
+  .projects.highlights > div {
+    padding: 0.5rem; /* Adjust padding for smaller cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for card effect */
+    overflow: hidden; /* Prevent overflow of contents */
+    text-align: center; /* Center text */
+  }
+
+  /* Ensure all project images fit uniformly and are small */
+  .projects.highlights img {
+    width: auto;        /* Allow image to maintain aspect ratio */
+    max-width: 100%;    /* Ensure the image doesn't overflow its container */
+    height: 100px;      /* Set a fixed height for smaller images */
+    object-fit: cover;  /* Crop image to fit within its bounds */
+    border-radius: 4px; /* Optional: rounded corners */
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column; /* Align image and text vertically */
+    align-items: center; /* Center content */
   }
 </style>
